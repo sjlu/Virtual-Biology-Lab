@@ -22,9 +22,9 @@
 <div id="header" class="container">
    <div class="row-fluid">
       <div id="logo" class="span4">
-         <img id="logo" src="<?= base_url('assets/img/logo.png') ?>" alt="logo" />
+         <img src="<?= base_url('assets/img/logo.png') ?>" alt="logo" />
       </div>
-      <div id="title" class="span8"><h2>Virtual Biology Lab</h2></span>
+      <div id="title" class="span8"><h2>Virtual Biology Lab</h2></div>
    </div>
 </div>
 

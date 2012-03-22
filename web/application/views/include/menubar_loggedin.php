@@ -1,7 +1,7 @@
 <div class="subnav" style="margin-bottom: 10px;">
    <ul class="nav nav-pills">
-      <li class="active"><a href="<?= site_url() ?>">Dashboard</a></li>
-      <li class="dropdown">
+      <li <? if(is_active()): ?>class="active"<? endif; ?>><a href="<?= site_url() ?>">Dashboard</a></li>
+      <li class="dropdown <? if(is_active('lab')): ?>active<? endif; ?>">
          <a class="dropdown-toggle" data-toggle="dropdown">Labs <b class="caret"></b></a>
          <ul class="dropdown-menu">
             <li><a href="<?= site_url('lab/intro/1') ?>">Cell Division</a></li>
