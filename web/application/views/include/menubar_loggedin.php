@@ -4,10 +4,9 @@
       <li class="dropdown <? if(is_active('lab')): ?>active<? endif; ?>">
          <a class="dropdown-toggle" data-toggle="dropdown">Labs <b class="caret"></b></a>
          <ul class="dropdown-menu">
-            <li><a href="<?= site_url('lab/intro/1') ?>">Cell Division</a></li>
-            <li><a href="<?= site_url('lab/intro/2') ?>">Biological Molecules</a></li>
-            <li><a href="<?= site_url('lab/intro/3') ?>">Enzyme State Diagram</a></li>
-            <li><a href="<?= site_url('lab/intro/4') ?>">Meiosis Activity</a></li>
+            <? foreach(dir2list('./content/labs') as $lab): ?>
+               <li><a href="<?= site_url('lab/intro/'.$lab['dir']) ?>"><?= $lab['title'] ?></a></li>
+            <? endforeach; ?>
          </ul>
       </li> 
       <li><a href="grades">Grades</a></li>

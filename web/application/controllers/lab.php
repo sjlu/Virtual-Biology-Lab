@@ -2,9 +2,9 @@
 
 class Lab extends CI_Controller {
 
-   public function intro($lab = 0)
+   public function intro($lab = '')
    {
-      if ($lab == 0)
+      if (empty($lab))
          show_404();
 
       $this->load->view('include/header.php');
@@ -13,14 +13,14 @@ class Lab extends CI_Controller {
 
    }
 
-   public function view()
+   public function view($lab = 0)
    {
       $this->load->view('include/header.php');
       $this->load->view('include/menubar_loggedin.php');
       $this->load->view('lab/view.php');
    }
 
-   public function quiz()
+   public function quiz($lab = 0)
    {
       $this->load->view('include/header.php');
       $this->load->view('include/menubar_loggedin.php');

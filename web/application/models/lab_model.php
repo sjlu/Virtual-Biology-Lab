@@ -7,9 +7,10 @@ class Lab_model extends CI_Model
       parent::__construct();
    }
 
+
    public function get_intro($lab)
    {
-
+      
    }
 
 }
