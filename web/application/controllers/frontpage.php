@@ -26,7 +26,6 @@ class Frontpage extends CI_Controller {
       else
          $this->loggedout_index();
 	}
-
 }
 
 /* End of file frontpage.php */

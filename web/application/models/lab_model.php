@@ -7,10 +7,19 @@ class Lab_model extends CI_Model
       parent::__construct();
    }
 
+   private function is_functional($lab)
+   {
+
+   }
 
    public function get_intro($lab)
    {
       
+   }
+   
+   public function get_lab($lab)
+   {
+
    }
 
 }
