@@ -4,6 +4,6 @@
    </div>
 
    <div class="span9">
-
+      <?= $intro_text ?>
    </div>
 </div>

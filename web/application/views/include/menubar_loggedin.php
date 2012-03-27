@@ -9,7 +9,7 @@
             <? endforeach; ?>
          </ul>
       </li> 
-      <li><a href="grades">Grades</a></li>
+      <li <? if(is_active()): ?>class="active"<? endif; ?>><a href="<?= site_url('grades') ?>">Grades</a></li>
       <ul class="nav nav-pills pull-right">
          <li><a href="<?= site_url('account/logout') ?>">Logout</a></li>
       </ul>

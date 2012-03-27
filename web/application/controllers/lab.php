@@ -7,9 +7,17 @@ class Lab extends CI_Controller {
       if (empty($lab))
          show_404();
 
+      $this->load->model('lab_model');
+      $intro_text = $this->lab_model->get_intro($lab);
+
+      if ($intro_text === FALSE)
+         show_404();
+
       $this->load->view('include/header.php');
       $this->load->view('include/menubar_loggedin.php');
-      $this->load->view('lab/intro.php');
+
+      $data = array('intro_text' => $intro_text);
+      $this->load->view('lab/intro.php', $data);
 
    }
 
