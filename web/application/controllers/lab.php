@@ -21,15 +21,30 @@ class Lab extends CI_Controller {
 
    }
 
-   public function view($lab = 0)
+   public function view($lab = '')
    {
+      if (empty($lab))
+         show_404();
+
+      $this->load->model('lab_model');
+      $swf_link = $this->lab_model->get_lab($lab);
+
+      if ($swf_link === FALSE)
+         show_404();
+
       $this->load->view('include/header.php');
       $this->load->view('include/menubar_loggedin.php');
-      $this->load->view('lab/view.php');
+
+      //$data = array('intro_text' => $intro_text);
+      $data = array('swf_link' => $swf_link);
+      $this->load->view('lab/view.php', $data);
    }
 
-   public function quiz($lab = 0)
+   public function quiz($lab = '')
    {
+      if (empty($lab))
+         show_404();
+      
       $this->load->view('include/header.php');
       $this->load->view('include/menubar_loggedin.php');
       $this->load->view('lab/quiz.php');
