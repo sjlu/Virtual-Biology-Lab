@@ -6,6 +6,10 @@
    <div class="span9">
       <form class="well" method="POST">
       <? foreach ($quiz as $q_key => $question): ?>
+         <?php if ($q_key == 'number_of_questions'
+            || $q_key == 'number_correct')
+            continue;
+         ?>
          <label class="question"><?= $question['question'] ?></label> 
          <? foreach ($question['answers'] as $i_key => $answer): ?>
             <input type="radio" name="<?= $q_key ?>" value="<?= $i_key ?>">

@@ -35,3 +35,7 @@ body {
 input[type="radio"] {
    vertical-align: bottom;
 }
+
+.quiz_box {
+   text-align: center;
+}

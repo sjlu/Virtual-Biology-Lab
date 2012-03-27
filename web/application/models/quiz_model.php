@@ -2,6 +2,9 @@
 
 class Quiz_model extends CI_model {
 
+   public $number_of_questions = 0;
+   public $correct_answers = 0;
+
    public function __construct()
    {
       parent::__construct();
@@ -14,7 +17,7 @@ class Quiz_model extends CI_model {
          return false;
 
       $quiz = json_decode($quiz, TRUE);
-      $quiz['number_of_questions'] = count($quiz);
+      $this->number_of_questions = count($quiz);
       return $quiz;
    }
 
@@ -32,17 +35,13 @@ class Quiz_model extends CI_model {
       {
          if (isset($quiz[$key]['answers'][$selection]['correct']))
          {
-            $quiz[$key]['answered_correctly'] = true;
-            $number_correct++;
+            $quiz[$key]['answered_correctly'] = 1;
+            $this->correct_answers++;
          }
-         else
-            $quiz[$key]['answered_correctly'] = false;
 
          $quiz[$key]['answers'][$selection]['selected'] = true;
       }
    
-      $quiz['number_correct'] = $number_correct;
-
       return $quiz;
    }
 

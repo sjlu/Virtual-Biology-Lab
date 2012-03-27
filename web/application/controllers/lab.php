@@ -50,7 +50,10 @@ class Lab extends CI_Controller {
    private function check_quiz($lab = '')
    {
       $quiz = $this->quiz_model->grade_quiz($lab, $_POST);
-      $data = array('quiz' => $quiz);
+      $questions = $this->quiz_model->number_of_questions;
+      $correct = $this->quiz_model->correct_answers;
+
+      $data = array('quiz' => $quiz, 'number_of_questions' => $questions, 'number_correct' => $correct);
       $this->load->view('lab/graded_quiz.php', $data);
    }
 
