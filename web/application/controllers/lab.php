@@ -40,16 +40,41 @@ class Lab extends CI_Controller {
       $this->load->view('lab/view.php', $data);
    }
 
+   private function get_quiz($lab = '')
+   {
+      $quiz = $this->quiz_model->generate_quiz($lab);
+      $data = array('quiz' => $quiz); 
+      $this->load->view('lab/quiz.php', $data);
+   }
+
+   private function check_quiz($lab = '')
+   {
+      $quiz = $this->quiz_model->grade_quiz($lab, $_POST);
+      $data = array('quiz' => $quiz);
+      $this->load->view('lab/graded_quiz.php', $data);
+   }
+
    public function quiz($lab = '')
    {
       if (empty($lab))
          show_404();
-      
+
+      $this->load->model('quiz_model');
+
       $this->load->view('include/header.php');
       $this->load->view('include/menubar_loggedin.php');
-      $this->load->view('lab/quiz.php');
-   }
 
+      switch($_SERVER['REQUEST_METHOD'])
+      {
+         case 'POST':
+            $this->check_quiz($lab);
+            break;
+         case 'GET':
+            $this->get_quiz($lab);
+            break;
+      }
+
+   }
 }
 
 /* End of file frontpage.php */

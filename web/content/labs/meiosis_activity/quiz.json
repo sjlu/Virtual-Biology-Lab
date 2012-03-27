@@ -1,0 +1,272 @@
+[
+            {
+                "question": "While mitotic division may occur in almost any living cell of an organism, what only occurs in special cells?",
+                "answers": [
+                    {
+                        "answer":"Diakinesis"
+                    },
+                    {
+                        "answer":"Meiosis",
+                        "correct": true
+                    },
+                    {
+                        "answer":"Anaphase"
+                    },
+                    {
+                        "answer":"Translocation"
+                    }
+                ]
+            },
+            {
+                "question": "Chromosome pairs that are similar in size and shape and carry the same kinds of genes are called what?",
+                "answers": [
+                    {
+                        "answer":"Heterogenous"
+                    },
+                    {
+                        "answer":"Diplotene"
+                    },
+                    {
+                        "answer":"Zygotes"
+                    },
+                    {
+                        "answer":"Homologous",
+                        "correct": true
+                    }
+                ]
+            },
+            {
+                "question": "Humans have how many pairs of homologous chromosomes?",
+                "answers": [
+                    {
+                        "answer":"21"
+                    },
+                    {
+                        "answer":"22"
+                    },
+                    {
+                        "answer":"23",
+                        "correct": true
+                    },
+                    {
+                        "answer":"24"
+                    }
+                ]
+            },
+            {
+                "question": "What is the name of the single cell formed by the fusion of an egg and a sperm?",
+                "answers": [
+                    {
+                        "answer":"Zygote",
+                        "correct": true
+                    },
+                    {
+                        "answer":"Blastocyst"
+                    },
+                    {
+                        "answer":"Fetus"
+                    },
+                    {
+                        "answer":"Genesis"
+                    }
+                ]
+            },
+            {
+                "question": "Meiosis consists of two divisions and DNA is synthesized _____.",
+                "answers": [
+                    {
+                        "answer":"Once",
+                        "correct": true
+                    },
+                    {
+                        "answer":"Twice"
+                    },
+                    {
+                        "answer":"Thrice"
+                    },
+                    {
+                        "answer":"Never"
+                    }
+                ]
+            },
+            {
+                "question": "______ is the part of prophase where the chromosomes start to become visible.",
+                "answers": [
+                    {
+                        "answer":"Diplotene"
+                    },
+                    {
+                        "answer":"Pachytene"
+                    },
+                    {
+                        "answer":"Zygotene"
+                    },
+                    {
+                        "answer":"Leptotene",
+                        "correct": true
+                    }
+                ]
+            },
+            {
+                "question": "When the chromosomes begin to pair during prophase it is the ______ phase.",
+                "answers": [
+                    {
+                        "answer":"Leptotene"
+                    },
+                    {
+                        "answer":"Pachytene"
+                    },
+                    {
+                        "answer":"Zygotene",
+                        "correct": true
+                    },
+                    {
+                        "answer":"Diplotene"
+                    }
+                ]
+            },
+            {
+                "question": "______ occurs during prophase when the chromosomes are fully synapsed along their lengths.",
+                "answers": [
+                    {
+                        "answer":"Pachytene",
+                        "correct": true
+                    },
+                    {
+                        "answer":"Zygotene"
+                    },
+                    {
+                        "answer":"Leptotene"
+                    },
+                    {
+                        "answer":"Diplotene"
+                    }
+                ]
+            },
+            {
+                "question": "When the chromosomes begin to look like they are repelling during prophase it is the _______ stage.",
+                "answers": [
+                    {
+                        "answer":"Pachytene"
+                    },
+                    {
+                        "answer":"Zygotene"
+                    },
+                    {
+                        "answer":"Leptotene"
+                    },
+                    {
+                        "answer":"Diplotene",
+                        "correct": true
+                    }
+                ]
+            },
+            {
+                "question": "At the end of _______ the nuclear envelope breaks down.",
+                "answers": [
+                    {
+                        "answer":"Meiosis"
+                    },
+                    {
+                        "answer":"Diakinesis",
+                        "correct": true
+                    },
+                    {
+                        "answer":"Metaphase"
+                    },
+                    {
+                        "answer":"Telophase"
+                    }
+                ]
+            },
+            {
+                "question": "During what phase does the tetrad of chromatids line up on the equatorial plane?",
+                "answers": [
+                    {
+                        "answer":"Anaphase 1"
+                    },
+                    {
+                        "answer":"Meiosis"
+                    },
+                    {
+                        "answer":"Metaphase 1",
+                        "correct": true
+                    },
+                    {
+                        "answer":"Telophase"
+                    }
+                ]
+            },
+            {
+                "question": "During what phase do the homologous centromeres move to opposite poles?",
+                "answers": [
+                    {
+                        "answer":"Anaphase 1",
+                        "correct": true
+                    },
+                    {
+                        "answer":"Meiosis"
+                    },
+                    {
+                        "answer":"Metaphase 1"
+                    },
+                    {
+                        "answer":"Telophase"
+                    }
+                ]
+            },
+            {
+                "question": "During what phase do the chromosomes reach the poles and decondense?",
+                "answers": [
+                    {
+                        "answer":"Anaphase 1"
+                    },
+                    {
+                        "answer":"Meiosis"
+                    },
+                    {
+                        "answer":"Metaphase 1"
+                    },
+                    {
+                        "answer":"Telophase",
+                        "correct": true
+                    }
+                ]
+            },
+            {
+                "question": "Having an XXY sex chromosome shows the person has _______ syndrome.",
+                "answers": [
+                    {
+                        "answer":"Edwards"
+                    },
+                    {
+                        "answer":"Downs"
+                    },
+                    {
+                        "answer":"Klinefelter",
+                        "correct": true
+                    },
+                    {
+                        "answer":"Patau"
+                    }
+                ]
+            },
+            {
+                "question": "Having an abnormality in the 18th autosome is an indictaor of _______ syndrome.",
+                "answers": [
+                    {
+                        "answer":"Edwards",
+                        "correct": true
+                    },
+                    {
+                        "answer":"Downs"
+                    },
+                    {
+                        "answer":"Klinefelter"
+                    },
+                    {
+                        "answer":"Patau"
+                    }
+                ]
+            }
+]

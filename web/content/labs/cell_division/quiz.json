@@ -1,0 +1,212 @@
+[
+    {
+                "question": "What does it mean when nuclei are diploid? (Find best answer)",
+                "answers": [
+                    {
+                        "answer":"Each nucleus has two sets of genes."
+                    },
+                    {
+                        "answer":"Each nucleus has two sets of chromosomes."
+                    },
+                    {
+                        "answer":"Each nucleus has two sets of genes on two sets of chromosomes.",
+                        "correct": true
+                    },
+                    {
+                        "answer":"There are two nuclei each with it's own set of genes."
+                    }
+                ]
+            },
+            {
+                "question": "The nuclear membrane disappears during which phase?",
+                "answers": [
+                    {
+                        "answer":"Prophase",
+                        "correct": true
+                    },
+                    {
+                        "answer":"Metaphase"
+                    },
+                    {
+                        "answer":"Anaphase"
+                    },
+                    {
+                        "answer":"Interphase"
+                    }
+                ]
+            },
+            {
+                "question": "The chromosomes align on the equatorial plane during which phase?",
+                "answers": [
+                    {
+                        "answer":"Prophase"
+                    },
+                    {
+                        "answer":"Metaphase",
+                        "correct": true
+                    },
+                    {
+                        "answer":"Anaphase"
+                    },
+                    {
+                        "answer":"Interphase"
+                    }
+                ]
+            },
+            {
+                "question": "The chromosomes move to the poles during which phase?",
+                "answers": [
+                    {
+                        "answer":"Telephase"
+                    },
+                    {
+                        "answer":"Metaphase"
+                    },
+                    {
+                        "answer":"Anaphase",
+                        "correct": true
+                    },
+                    {
+                        "answer":"Interphase"
+                    }
+                ]
+            },
+            {
+                "question": "DNA synthesis occurs during which phase?",
+                "answers": [
+                    {
+                        "answer":"Prophase"
+                    },
+                    {
+                        "answer":"Metaphase"
+                    },
+                    {
+                        "answer":"Telephase"
+                    },
+                    {
+                        "answer":"Interphase",
+                        "correct": true
+                    }
+                ]
+            },
+            {
+                "question": "Chromosomes de-condense and are contained in two different nuclei during which phase?",
+                "answers": [
+                    {
+                        "answer":"Prophase"
+                    },
+                    {
+                        "answer":"Telephase"
+                    },
+                    {
+                        "answer":"Anaphase",
+                        "correct": true
+                    },
+                    {
+                        "answer":"Interphase"
+                    }
+                ]
+            },
+            {
+                "question": "Cell division occurs in which region of the onion root?",
+                "answers": [
+                    {
+                        "answer":"Nucleus Region"
+                    },
+                    {
+                        "answer":"Meristematic Region",
+                        "correct": true
+                    },
+                    {
+                        "answer":"Membrane Region"
+                    },
+                    {
+                        "answer":"Vacuole Region"
+                    }
+                ]
+            },
+            {
+                "question": "Given 200 cells, 150 are in interphase. What percentage of cells are in interphase?",
+                "answers": [
+                    {
+                        "answer":"50%"
+                    },
+                    {
+                        "answer":"100%"
+                    },
+                    {
+                        "answer":"75%",
+                        "correct": true
+                    },
+                    {
+                        "answer":"0%"
+                    }
+                ]
+            },
+            {
+                "question": "If cells spend about 7.5% of their cell cycle in metaphase and a cell cycle takes about 24 hours, how many hours are spent in metaphase?",
+                "answers": [
+                    {
+                        "answer":"3.5 hours"
+                    },
+                    {
+                        "answer":"1.2 hours"
+                    },
+                    {
+                        "answer":"1.5 hours"
+                    },
+                    {
+                        "answer":"1.8 hours",
+                        "correct": true
+                    }
+                ]
+            },
+            {
+                "question": "Cytoplasmic division does not need to occur immediately following nuclear division.",
+                "answers": [
+                    {
+                        "answer":"True",
+                        "correct": true
+                    },
+                    {
+                        "answer":"False"
+                    }
+                ]
+            },
+            {
+                "question": "A cell contains a rigid cellular wall. Which type of cell is it?",
+                "answers": [
+                    {
+                        "answer":"Animal"
+                    },
+                    {
+                        "answer":"Plant",
+                        "correct": true
+                    }
+                ]
+            },
+            {
+                "question": "A cell contains chloroplasts. Which type of cell is it?",
+                "answers": [
+                    {
+                        "answer":"Animal"
+                    },
+                    {
+                        "answer":"Plant",
+                        "correct": true
+                    }
+                ]
+            },
+            {
+                "question": "A cell contains centrioles. Which type of cell is it?",
+                "answers": [
+                    {
+                        "answer":"Animal",
+                        "correct": true
+                    },
+                    {
+                        "answer":"Plant"
+                    }
+                ]
+    }
+]

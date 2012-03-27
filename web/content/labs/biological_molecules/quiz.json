@@ -1,0 +1,200 @@
+[
+            {
+                "question": "What is the normal range for the pH of urine?",
+                "answers": [
+                    {
+                        "answer":"2 - 4"
+                    },
+                    {
+                        "answer":"3 - 5"
+                    },
+                    {
+                        "answer":"5 - 7",
+                        "correct": true
+                    },
+                    {
+                        "answer":"7 - 9"
+                    }
+                ]
+            },
+            {
+                "question": "What is the average density of glucose in urine?",
+                "answers": [
+                    {
+                        "answer":"0.6 mg/ml",
+                        "correct": true
+                    },
+                    {
+                        "answer":"1.0 mg/ml"
+                    },
+                    {
+                        "answer":"0.2 mg/ml"
+                    },
+                    {
+                        "answer":"1.5 mg/ml"
+                    }
+                ]
+            },
+            {
+                "question": "What is the average density of albumin in urine?",
+                "answers": [
+                    {
+                        "answer":"0.6 mg/ml"
+                    },
+                    {
+                        "answer":"0.8 mg/ml"
+                    },
+                    {
+                        "answer":"0.3 mg/ml",
+                        "correct": true
+                    },
+                    {
+                        "answer":"1.2 mg/ml"
+                    }
+                ]
+            },
+            {
+                "question": "What is normally contained within an erythrocyte, meaning the levels of if that is free in the blood is low?",
+                "answers": [
+                    {
+                        "answer":"Glucose"
+                    },
+                    {
+                        "answer":"Hemoglobin",
+                        "correct": true
+                    },
+                    {
+                        "answer":"Albumin"
+                    },
+                    {
+                        "answer":"Proteins"
+                    }
+                ]
+            },
+            {
+                "question": "The Spectronic 20 colorimeter measures what in a sample liquid?",
+                "answers": [
+                    {
+                        "answer":"Reactance"
+                    },
+                    {
+                        "answer":"Wavelength"
+                    },
+                    {
+                        "answer":"Mass"
+                    },
+                    {
+                        "answer":"Absorbance",
+                        "correct": true
+                    }
+                ]
+            },
+            {
+                "question": "Under what measure is 100% of light transmitted in the Spectronic 20 colorimeter?",
+                "answers": [
+                    {
+                        "answer":"Zero absorbance",
+                        "correct": true
+                    },
+                    {
+                        "answer":"Slight absorbance"
+                    },
+                    {
+                        "answer":"Full absorbance"
+                    },
+                    {
+                        "answer":"Under-absorbance"
+                    }
+                ]
+            },
+            {
+                "question": "If a wavelength of 575 corresponds to the color yellow and a wavelength of 626 to the color red, a wavelength of 600 corresponds to what color?",
+                "answers": [
+                    {
+                        "answer":"Green"
+                    },
+                    {
+                        "answer":"Pink"
+                    },
+                    {
+                        "answer":"Orange",
+                        "correct": true
+                    },
+                    {
+                        "answer":"Beige"
+                    }
+                ]
+            },
+            {
+                "question": "Within the lab, which patient(s) had a pH imbalance?",
+                "answers": [
+                    {
+                        "answer":"3 and 6"
+                    },
+                    {
+                        "answer":"4 and 6"
+                    },
+                    {
+                        "answer":"6"
+                    },
+                    {
+                        "answer":"5 and 6",
+                        "correct": true
+                    }
+                ]
+            },
+            {
+                "question": "Within the lab, which patient(s) had glycosuria?",
+                "answers": [
+                    {
+                        "answer":"3 and 6",
+                        "correct": true
+                    },
+                    {
+                        "answer":"4 and 6"
+                    },
+                    {
+                        "answer":"6"
+                    },
+                    {
+                        "answer":"5 and 6"
+                    }
+                ]
+            },
+            {
+                "question": "Within the lab, which patient(s) had proteinuria?",
+                "answers": [
+                    {
+                        "answer":"3 and 6"
+                    },
+                    {
+                        "answer":"4 and 6",
+                        "correct": true
+                    },
+                    {
+                        "answer":"6"
+                    },
+                    {
+                        "answer":"5 and 6"
+                    }
+                ]
+            },
+            {
+                "question": "Within the lab, which patient(s) had hemoglobinuria?",
+                "answers": [
+                    {
+                        "answer":"3 and 6"
+                    },
+                    {
+                        "answer":"4 and 6"
+                    },
+                    {
+                        "answer":"6",
+                        "correct": true
+                    },
+                    {
+                        "answer":"5 and 6"
+                    }
+                ]
+            }
+]

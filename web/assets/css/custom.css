@@ -27,3 +27,11 @@ body {
       text-align: right;
    }
 }
+
+.question {
+   font-weight: bold;
+}
+
+input[type="radio"] {
+   vertical-align: bottom;
+}

@@ -1,0 +1,74 @@
+[
+            {
+                "question": "A group of enzymes that catalyze the removal of phosphate groups from other molecules is called what?",
+                "answers": [
+                    {
+                        "answer":"Phosphates",
+                        "correct": true
+                    },
+                    {
+                        "answer":"Alkalines"
+                    },
+                    {
+                        "answer":"Organics"
+                    },
+                    {
+                        "answer":"Inorganics"
+                    }
+                ]
+            },
+            {
+                "question": "What is capable of converting p-Nitro-Phenyl Phosphate into p-Nitrophenol and inorganic phosphate?",
+                "answers": [
+                    {
+                        "answer":"Organic Phosphatase"
+                    },
+                    {
+                        "answer":"Nitrous Phosphatase"
+                    },
+                    {
+                        "answer":"Alkaline Phosphatase",
+                        "correct": true
+                    },
+                    {
+                        "answer":"Phenyl Phosphatase"
+                    }
+                ]
+            },
+            {
+                "question": "What is the color of pHP?",
+                "answers": [
+                    {
+                        "answer":"Orange"
+                    },
+                    {
+                        "answer":"Green"
+                    },
+                    {
+                        "answer":"Blue"
+                    },
+                    {
+                        "answer":"Yellow",
+                        "correct": true
+                    }
+                ]
+            },
+            {
+                "question": "What is the color of pHPP at alkaline pH?",
+                "answers": [
+                    {
+                        "answer":"Red"
+                    },
+                    {
+                        "answer":"Blue"
+                    },
+                    {
+                        "answer":"Yellow"
+                    },
+                    {
+                        "answer":"No color",
+                        "correct": true
+                    }
+                ]
+            }
+]
