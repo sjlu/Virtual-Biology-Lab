@@ -6,9 +6,14 @@
             <b>Error!</b> <?= $error ?>
          </div>
       <? endif; ?>
-      <form class="well" method="POST">
+      <? if (!empty($info)): ?>
+         <div class="alert alert-info">
+            <b>Info.</b> <?= $info ?>
+         </div>
+      <? endif; ?>
+      <form class="well" method="POST" action="<?= base_url('account/login') ?>">
          <label>Username</label>
-         <input type="text" name="username" class="span4" <? if (!empty($username)): ?> value="<?= $username ?>" <? else: ?> placeholder="Your Rutgers NetID" <? endif; ?>>
+         <input type="text" name="username" class="span4" <? if (!empty($username)): ?> value="<?= $username ?>" <? endif; ?>>
          <label>Password</label>
          <input type="password" name="password" class="span4">
          <br />

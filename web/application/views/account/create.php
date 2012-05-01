@@ -7,8 +7,8 @@
          </div>
       <? endif; ?>
       <form class="well" method="POST">
-         <label>Lab Section</label>
-         <input type="text" name="lab_section" class="span4" <? if (isset($lab_section)): ?> value="<?= $lab_section ?>" <? else: ?> placeholder="Your TA or Professor will provide this." <? endif; ?>>
+         <label>Lab Code</label>
+         <input type="text" name="section" class="span4" <? if (isset($lab_section)): ?> value="<?= $lab_section ?>" <? else: ?> placeholder="SPRING2012-TEMP" <? endif; ?>>
          <label>Rutgers NetID</label>
          <input type="text" name="username" class="span4" <? if (isset($username)): ?> value="<?= $username ?>" <? else: ?> placeholder="Your Rutgers NetID" <? endif; ?>>
          <label>Password</label>

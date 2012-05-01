@@ -5,13 +5,13 @@
 
    <div class="span9">
 
-      <div class="row">
-         <div class="quiz_box span4 well">
+      <div class="row-fluid">
+         <div class="quiz_box well span5">
             <h2>Questions</h2>
             <h1><?= $number_correct ?>/<?= $number_of_questions ?></h1>
          </div>
 
-         <div class="quiz_box span4 well">
+         <div class="quiz_box well span5">
             <h2>Grade</h2>
             <h1><?= round($number_correct/$number_of_questions*100) ?>%</h1>
          </div>

@@ -12,9 +12,30 @@ class Account extends CI_Controller {
 
    private function create_validate()
    {
-      /*
-         Temporary, do nothing.
-      */
+      $this->load->model('account_model');
+
+      if (($error = $this->account_model->create(
+         $_POST['username'], 
+         $_POST['password'], 
+         $_POST['section'], 
+         'student')) === true)
+      {
+         $page_data['info'] = 'Your account was created, you may now login.';
+
+         $this->load->view('include/header');
+         $this->load->view('include/menubar_loggedout');
+         $this->load->view('account/login', $page_data);
+         $this->load->view('include/footer');
+      }
+      else
+      {
+         $page_data['error'] = $error;
+
+         $this->load->view('include/header');
+         $this->load->view('include/menubar_loggedout');
+         $this->load->view('account/create', $page_data);
+         $this->load->view('include/footer');
+      }
    }
 
    public function create()
@@ -27,7 +48,6 @@ class Account extends CI_Controller {
             $this->create_form();
             break;
       }
-
    }
    
 
@@ -45,18 +65,20 @@ class Account extends CI_Controller {
          This is for temporary purposes
       */
 
-      $users = array('sjlu');
-      if (in_array($_POST['username'], $users))
+      $this->load->database();
+      $this->db->where('username', $_POST['username'])
+         ->where('password', md5($_POST['password']));
+
+      $query = $this->db->get('users');
+      $result = $query->row_array();
+
+      if ($query->num_rows())
       {
          $session_data = array();
-
-         if ($_POST['password'] == 'vblprof')
-            $session_data['account'] = 'professor';
-         else if ($_POST['password'] == 'vblstud')
-            $session_data['account'] = 'student';
-         else
-            $error = 'Incorrect username and password!'; 
-
+         $session_data['id'] = $result['id'];
+         $session_data['username'] = $_POST['username'];
+         $session_data['account_type'] = $result['account_type'];
+         $session_data['section_id'] = $result['section_id'];
       }
       else
          $error = 'Incorrect username and password!';
@@ -73,11 +95,12 @@ class Account extends CI_Controller {
       }
       else
       {
-         $session_data['username'] = $_POST['username'];
-
          $this->load->library('session');
          $this->session->set_userdata($session_data);
-         redirect('/', 'refresh');
+         if ($session_data['account_type'] == 'professor')
+            redirect('/professor', 'refresh');
+         else
+            redirect('/', 'refresh');
       }
    }
 

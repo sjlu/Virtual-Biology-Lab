@@ -55,6 +55,9 @@ class Lab extends CI_Controller {
 
       $data = array('quiz' => $quiz, 'number_of_questions' => $questions, 'number_correct' => $correct);
       $this->load->view('lab/graded_quiz.php', $data);
+
+      $this->load->model('grades_model');
+      $this->grades_model->save_grade($lab, round(($correct/$questions)*100));
    }
 
    public function quiz($lab = '')
@@ -73,7 +76,11 @@ class Lab extends CI_Controller {
             $this->check_quiz($lab);
             break;
          case 'GET':
-            $this->get_quiz($lab);
+            $this->load->model('grades_model');
+            if ($this->grades_model->has_taken($lab))
+               $this->load->view('lab/quiz_taken.php');
+            else
+               $this->get_quiz($lab);
             break;
       }
 
