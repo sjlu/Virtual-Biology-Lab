@@ -1,3 +1,6 @@
+<div class="alert alert-info">
+<h4>Your grades are listed here. Your final average will be calculated once all lab quizzes have been completed.</h4>
+</div>
 <table class="table table-striped table-bordered">
    <thead>
       <tr>
