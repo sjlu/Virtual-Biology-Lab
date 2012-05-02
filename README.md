@@ -7,8 +7,8 @@ The Virtual Biology Lab is intended to inform and teach students certain aspects
 This project was created for Software Engineering (332-452) at Rutgers University under professor Ivan Marsic.
 
 This project was created by:
-- Steven Lu [https://github.com/sjlu](sjlu)
-- Mike DiLalo (https://github.com/mvd366)(mvd366)
+- Steven Lu (sjlu)
+- Mike DiLalo (mvd366)
 - Nick Guida
 - Cady Motyka
 - Kevin Miller
