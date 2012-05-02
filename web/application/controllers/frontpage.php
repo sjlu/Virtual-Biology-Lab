@@ -29,11 +29,8 @@ class Frontpage extends CI_Controller {
    public function index()
 	{
       $this->load->library('session');
-      if ($account_type = $this->session->userdata('account_type'))
-         if ($account_type == 'student')
-            $this->loggedin_index();
-         else if ($account_type == 'professor')
-            redirect('/professor', TRUE);
+      if ($this->session->userdata('id'))
+         $this->loggedin_index();
       else
          $this->loggedout_index();
 	}

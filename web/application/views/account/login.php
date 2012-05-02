@@ -11,7 +11,7 @@
             <b>Info.</b> <?= $info ?>
          </div>
       <? endif; ?>
-      <form class="well" method="POST" action="<?= base_url('account/login') ?>">
+      <form class="well" method="POST" action="<?= site_url('account/login') ?>">
          <label>Username</label>
          <input type="text" name="username" class="span4" <? if (!empty($username)): ?> value="<?= $username ?>" <? endif; ?>>
          <label>Password</label>

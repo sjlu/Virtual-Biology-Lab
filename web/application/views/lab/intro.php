@@ -3,7 +3,7 @@
       <?php include_once('sidebar.php'); ?>
    </div>
 
-   <div class="span8 well">
-      <?= $intro_text ?>
+   <div class="span7 hero-unit">
+      <p><?= $intro_text ?></p>
    </div>
 </div>
