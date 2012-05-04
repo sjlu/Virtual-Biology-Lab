@@ -7,9 +7,10 @@ The Virtual Biology Lab is intended to inform and teach students certain aspects
 This project was created for Software Engineering (332-452) at Rutgers University under professor Ivan Marsic.
 
 This project was created by:
-- Steven Lu (sjlu)
-- Mike DiLalo (mvd366)
+- Steven Lu (sjlu) - Developed web interface
+- Mike DiLalo (mvd366) - Developed flash modules
 - Nick Guida
+- Ryan Cullinane
 - Cady Motyka
 - Kevin Miller
 
@@ -19,7 +20,15 @@ Within this Github repository, you'll notice three main folders.
 
 ### Code
 
-Under this directory you'll see a directory containing the flash source code. You'll also notice a directory called web. Within the web directory is a deployable version of the website written in the CodeIgniter framework and in PHP. You'll need a standard LAMP setup in order to properly run the web server. You'll need to create a MySQL username and database in order for the website to be dynamic. Once you've created it you'll need to add these credentials to `web/application/config/database.php`. Don't worry about setting up the database, the website will automatically add the necessary tables. To start creating accounts, you'll need to add a section key in the database table, `sections`.
+Under this directory you'll see a directory containing the flash source code. You'll also notice a directory called web. Within the web directory is a deployable version of the website written in the CodeIgniter framework and in PHP. 
+
+1. Install a standard LAMP setup, nothing special.
+2. Create a username/password and database in MySQL.
+3. Write database credentials in `code/web/application/config/database.php`
+4. View the directory `code/web` in your web browser.
+5. In MySQL, add a `section_key` into the table `sections`
+6. Create a user account for yourself using that `section_key`.
+7. If you want user account to be a professor, edit that user in the database table `users`, Change `student` to `professor.
 
 ### Other
 
