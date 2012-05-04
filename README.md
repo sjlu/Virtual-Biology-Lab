@@ -33,3 +33,7 @@ Under this directory you'll see a directory containing the flash source code. Yo
 ### Other
 
 All of our report documentation is listed in the `doc` directory. Our `design` directory includes graphics, diagrams and more that were created and can be found in our documentation. Please refer to `docs` for any UML diagrams as they are the most up to date.
+
+## Information
+
+No unit testing, integration testing or data collection modules apply to this project so they were not added.
